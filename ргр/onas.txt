@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('онас.jpg'); /* Фоновое изображение */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Цвет текста */
+        }
+        
+        #header {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 36px;
+            font-family: 'Arial Black', sans-serif; /* Изменение шрифта */
+        }
+        
+        #content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        
+        .block {
+            width: 40%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный цвет фона */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Тень блока */
+            margin: 20px;
+        }
+        
+        .block img {
+            max-width: 50%;
+            height: 50;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <p>Здесь вы можете найти много интересного контента.</p>
+    </div>
+    <div id="content">
+        <div class="block">
+            <img src="картинка.png" alt="Изображение">
+        </div>
+        <div class="block">
+            <p>Текст вашего сайта здесь...</p>
+        </div>
+    </div>
+</body>
+</html>

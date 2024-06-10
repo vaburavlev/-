@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Фреймы в HTML</title>
+<script language="javascript">
+var name = prompt ('Здравствуйте, Введите имя', '');
+var Otchestvo = prompt ('Ввдтие отчетсво', '');
+alert(''+name+ " " +Otchestvo+ "!"+" Добро пожалывать на сайт!")
+</script>
+
+<frameset rows="100, 20*">
+    <frame src="hedder.html">
+    <frameset cols="200, *">
+        <frame src="menu.html">
+        <frame src="telefon.html" name="telefon.html">
+    </frameset>
+</frameset>
+
+</body>
+</html>

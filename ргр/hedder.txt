@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Безназвания 1</title>
+<style type="text/css">
+.style1 {
+    text-align: center;
+}
+.style2 {
+    font-size: xx-large;
+}
+.style3 {
+    color: #FF0000;
+    font-size: xx-large;
+}
+.style5 {
+    text-align: center;
+    font-size: large;
+}
+.style4 {
+    font-size: large;
+}
+
+/* CSS для задания фона страницы */
+body {
+    background-image: url('фонхеддер.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Позволяет изображению занимать весь экран */
+    background-repeat: no-repeat; /* Запрещает изображению повторяться */
+    background-attachment: fixed; /* Зафиксирует изображение на фоне, так что оно не будет прокручиваться с содержимым страницы */
+}
+</style>
+<base target="оглавление" />
+</head>
+
+<body>
+
+<p class="style1"><span class="style2">Магазин смартфонов&quot;</span><span lang="en-us"><span class="style3">Re</span></span><span lang="en-us" class="style2">:
+</span><span class="style2">А</span><span lang="en-us" class="style2">pple</span><span lang="ru"><span class="style2">&quot;</span></span></p>
+<p class="style5"><strong>Контактная информация тел:</strong> (9731)-242-123-30</p>
+<p class="style1"><span lang="en-us" class="style4"><strong>e-mail:</strong>
+reapple@mail.ru</span></p>
+
+</body>
+</html>

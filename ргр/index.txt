@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Фреймы в HTML</title>
+<style type="text/css">
+/* CSS для задания фона страницы */
+body {
+    background-image: url('your_image.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Позволяет изображению занимать весь экран */
+    background-repeat: no-repeat; /* Запрещает изображению повторяться */
+    background-attachment: fixed; /* Зафиксирует изображение на фоне, так что оно не будет прокручиваться с содержимым страницы */
+}
+</style>
+</head>
+<body>
+
+<script language="javascript">
+var name = prompt ('Здравствуйте, Введите имя', '');
+var Otchestvo = prompt ('Ввдтие отчетсво', '');
+alert(''+name+ " " +Otchestvo+ "!"+" Добро пожалывать на сайт!")
+</script>
+
+<frameset rows="100, 20*">
+    <frame src="hedder.html">
+    <frameset cols="200, *">
+        <frame src="menu.html">
+        <frame src="telefon.html" name="telefon.html">
+    </frameset>
+</frameset>
+
+</body>
+</html>
